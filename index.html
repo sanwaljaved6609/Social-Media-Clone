@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="style.css">
+    <title>MS Social</title>
+</head>
+<body>
+  
+    <nav>
+        <div class="nav-left">
+            <div class="logo">
+                <i class="fa-brands fa-2x fa-facebook"><span class="ms">MS FACE</span></i>
+            </div>
+            <ul>
+                <li><i class="fa-solid fa-house"></i></li>
+                <li><i class="fa-solid fa-message"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+                <li><i class="fa-solid fa-bell"></i></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()" >
+                <img src="images/my imggg.jpg">
+            </div>
+
+        </div>
+<!-- ===================setting menu--------------- -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/my imggg.jpg">
+                    <div>
+                        <p>Sanwal Javed</p>
+                        <a href="#">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <i class="fa-solid fa-2x fa-circle-info" style="color: #616770;"></i>
+                    <div>
+                        
+                        <p>Give Feedback</p>
+                        <a href="#">Help us with your Feedback</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <i class="fa-solid fa-gear fa-2x" style="color: #85878a;"></i>
+                    <a href="#">Settings & Privacy <i class="fa-solid fa-angle-right" style="color: #7c7e83;"></i> </a>
+                </div>
+                <div class="settings-links">
+                    <i class="fa-solid fa-2x fa-circle-question" style="color: #808185;"></i>
+                    <a href="#">Help & Support <i class="fa-solid fa-angle-right" style="color: #7c7e83;"></i> </a>
+                </div>
+                <div class="settings-links">
+                    <i class="fa-solid fa-2x fa-moon" style="color: #707275;"></i>
+                    <a href="#">Display & Accessibilty <i class="fa-solid fa-angle-right" style="color: #7c7e83;"></i> </a>
+                </div>
+                <div class="settings-links">
+                    <i class="fa-solid fa-2x fa-right-from-bracket" style="color: #6c6f75;"></i>
+                    <a href="#">Logout <i class="fa-solid fa-angle-right" style="color: #7c7e83;"></i> </a>
+                </div>
+        
+            </div>
+            
+        </div>
+
+
+    </nav>
+
+
+    <div class="container">
+        <!-- ---------------- LEFT SIDE BAR---------------- -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><i class="fa-regular fa-2x fa-newspaper" style="color: #5c92f0;"></i>Latest News</a>
+                <a href="#"><i class="fa-solid fa-2x fa-user-group" style="color: #5c92f0;"></i>Friends</a>
+                <a href="#"><i class="fa-solid fa-2x fa-people-group" style="color: #5c92f0;"></i>Group</a>
+                <a href="#"><i class="fa-solid fa-2x fa-store" style="color: #5c92f0;"></i>Marketplace</a>
+                <a href="#"><i class="fa-brands fa-2x fa-youtube" style="color: #5c92f0;"></i>Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="./images/web dev.jpg" alt="">Web Development</a>
+                <a href="#"><img src="./images/web design.png" alt="">Web Designing</a>
+                <a href="#"><img src="./images/full-stack-web-developer.png" alt="">Full Stack Developmer</a>
+                <a href="#"><img src="./images/web expert.jpg" alt="">Web Experts</a>
+            </div>
+        </div>
+        <!-- MAIN CONTENT -->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story">
+                    <i class="fa-solid fa-plus" style="color: #fcfcfd;"></i>
+                    <p>Post Story</p>
+                </div>
+                <div class="storya story1 ">
+                    <img src="./images/online1.jpg" alt="">
+                </div>
+                <div class="storya story2">
+                    <img src="./images/online2.jpg" alt="">
+                </div>
+                <div class="storya story3">
+                    <img src="./images/online3.jpg" alt="">
+                </div>
+                <div class="storya story4">
+                    <img src="./images/online4.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/my imggg.jpg">
+                    <div>
+                        <p>Sanwal Javed</p>
+                        <small>Public <i class="fa-solid fa-sort-down"></i> </small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="Whats's in your mind!"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><i class="fa-solid fa-2x fa-video" style="color: #2664cf;"></i>Live</a>
+                        <a href="#"><i class="fa-solid fa-2x fa-camera" style="color: #3f8731;"></i>Photo/Video</a>
+                        <a href="#"><i class="fa-regular fa-2x fa-face-smile" style="color: #ecd332;"></i>Feeling/Activity</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/my imggg.jpg">
+                        <div>
+                            <p>Sanwal Javed</p>
+                            <span>Spetember 18 2023, 1:33pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"> </i></a>
+                </div>
+               
+                <p class="post-text" >Social media <span>Clone</span> using HTML5, CSS and Javas Script By Sanwal Javed. <a href="#">#MsSocail #SanwalJaved #Clone</a></p>
+                <img src="./images/full-stack-web-developer.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa-solid fa-thumbs-up" style="color: #3272e2;"></i>120</div>
+                        <div><i class="fa-solid fa-comment"></i>88</div>
+                        <div><i class="fa-solid fa-share"></i>34</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/my imggg.jpg"> <i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/online2.jpg">
+                        <div>
+                            <p>Robert Jr.</p>
+                            <span>January 18 2023, 2:21pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"> </i></a>
+                </div>
+               
+                <p class="post-text" >Lahore the heart of <span>Pakistan</span>, Enjoying visiting Pakistan. <a href="#">#Pakistan #Lahore #BadshahiMosque</a></p>
+                <img src="./images/post2.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa-solid fa-thumbs-up" style="color: #3272e2;"></i>56</div>
+                        <div><i class="fa-solid fa-comment"></i>23</div>
+                        <div><i class="fa-solid fa-share"></i>47</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/my imggg.jpg"> <i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/online1.jpg">
+                        <div>
+                            <p>Amanda</p>
+                            <span>August 23 2023, 4:00pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"> </i></a>
+                </div>
+               
+                <p class="post-text" >
+                    Love the nature and it's beauty. <a href="#">#Nature</a>
+                </p>
+                <img src="./images/post1.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa-solid fa-thumbs-up" style="color: #3272e2;"></i>1o0</div>
+                        <div><i class="fa-solid fa-comment"></i>38</div>
+                        <div><i class="fa-solid fa-share"></i>54</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/my imggg.jpg"> <i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/online4.jpg">
+                        <div>
+                            <p>Rambo</p>
+                            <span>June 23 2022, 12:00pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"> </i></a>
+                </div>
+               
+                <p class="post-text" >
+                    A long at the office!!!!<a href="#">#Work</a>
+                </p>
+                <img src="./images/post3.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa-solid fa-thumbs-up" style="color: #3272e2;"></i>78</div>
+                        <div><i class="fa-solid fa-comment"></i>38</div>
+                        <div><i class="fa-solid fa-share"></i>54</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/my imggg.jpg"> <i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="load-more-btn" type="button" >Load More</button>
+
+        </div>
+        <!-- RIGHT SIDEBAR -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="events">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Arfa Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="events">
+                <div class="left-event">
+                    <h3>14</h3>
+                    <span>August</span>
+                </div>
+                <div class="right-event">
+                    <h4>Independence Day</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Minar-e-Pakistan</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisment</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="./images/advertis.jpg" class="sidebar-ads" alt="">
+
+            <div class="sidebar-title">
+                <h4>Conversations</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/online1.jpg">
+                </div>
+                <p>Amanda</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/online2.jpg">
+                </div>
+                <p>Robert Jr.</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/online3.jpg">
+                </div>
+                <p>Samaritan</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/online4.jpg">
+                </div>
+                <p>Rambo</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/online5.jpg">
+                </div>
+                <p>Lisa</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021 - Social Media Clone</p>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2d7f9287ee.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
